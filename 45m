@@ -1,0 +1,17 @@
+#!/bin/bash
+# A scipt that pretty much replaces how I was using BreakTimer.app
+
+clear
+printf '\e[3;0;0t'
+printf '\e[8;1;55t'r
+utimer -c 45m && say "Take a break. Stand up, and stir etch."
+spotify stop
+vlc -I dummy --quiet ~/bin/HEYYEYAAEYAAAEYAEYAA\ \[ZZ5LpwO-An4\].mp4 &
+sleep 1
+open -a Terminal
+
+# 5t leaves the curser wherever it was 
+# source:https://apple.stackexchange.com/a/47841
+
+printf '\e[1t'
+cliclick t:"Get up and MOVE dummy! "
