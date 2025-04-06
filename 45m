@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/bin/zsh
 # A scipt that pretty much replaces how I was using BreakTimer.app
 
 clear
 printf '\e[3;0;0t'
 printf '\e[8;1;55t'r
-utimer -c 45m && say "Take a break. Stand up, and stir etch."
+utimer -c 45m && say "Take a break. Stand up, and strettch."
 spotify stop
-vlc -I dummy --quiet ~/bin/HEYYEYAAEYAAAEYAEYAA\ \[ZZ5LpwO-An4\].mp4 &
+vlc -I dummy --quiet ~/bin/45m/HEYYEYAAEYAAAEYAEYAA\ \[ZZ5LpwO-An4\].mp4 &
 sleep 1
 open -a Terminal
 
