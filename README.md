@@ -5,10 +5,13 @@ I had been using a modified version of https://breaktimer.app to do something si
 
 Dependancies:
 
+```zshell
 brew install shpotify
 brew install utimer
 brew install cliclick
+```
+you may want to:
 
-you may want to add the following lines to you .zshrc:
-
-alias stop='killall VLC'
+```zshell
+echo "alias stop='killall VLC'" >> ~/.zshrc
+```
